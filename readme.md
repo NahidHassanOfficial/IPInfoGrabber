@@ -15,3 +15,5 @@ A simple web application that retrieves geolocation information based on an IP a
 - CSS
 - JavaScript
 - External API: [API for IP Geolocation](https://api.techniknews.net/ipgeo/)
+
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/NahidHassanOfficial/IPInfoGrabber)

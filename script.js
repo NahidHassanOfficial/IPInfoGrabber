@@ -43,8 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
       (event.type === "keydown" && event.key === "Enter") ||
       event.type === "click"
     ) {
-      let judge = verifyInput(input.value);
-      if (judge) grabInformation(input.value);
+      grabInformation(input.value);
     }
   }
 

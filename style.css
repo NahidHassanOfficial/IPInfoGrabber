@@ -121,3 +121,61 @@ iframe {
 .typed-cursor {
   color: white;
 }
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .visitor-ip {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .visitor-ip h1 {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+  input {
+    width: 45%;
+  }
+  .icon-cont {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -41px;
+  }
+  .result-msg {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+  .visitor-ip {
+    height: 110px;
+    width: 300px;
+    background-size: contain;
+  }
+
+  .visitor-ip h1 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  input {
+    width: 285px;
+  }
+  .icon-cont {
+    width: 285px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -41px;
+  }
+  .result-msg {
+    font-size: 15px;
+  }
+  .table {
+    display: flex;
+    flex-direction: column;
+  }
+}
